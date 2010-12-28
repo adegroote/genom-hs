@@ -1,0 +1,15 @@
+GeNoM is a Module Generator for real time software architecture, particularly
+for robotics system, developped at LAAS-CNRS (http://www.laas.fr).
+
+It is an attempt (for fun) to parse and generate client to control these modules
+in Haskell (and maybe generate client for other languages).
+
+It is mainly a project to train my Haskell so the code may be of poor quality.
+
+Current status :
+	- parsing of Genom specification mostly OK, but need to parse C definition
+	  (maybe use language-c)
+
+Requierements :
+	- ghc
+	- parsec >= 2.0
